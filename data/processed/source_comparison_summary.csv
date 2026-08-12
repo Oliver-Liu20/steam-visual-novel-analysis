@@ -1,0 +1,8 @@
+﻿category,count,description
+VNDB_TOTAL_ALL_DATES,10699,VNDB entries with a Steam AppID before date filtering
+STEAM_TAG_TOTAL_ALL_DATES,11439,Steam Visual Novel tag games before date filtering
+INTERSECTION_2020_2025,2840,Present in both sources and in target date scope
+VNDB_ONLY_2020_2025,3563,Present in VNDB but missing the Steam Visual Novel tag
+STEAM_ONLY_2020_2025,2563,Has Steam Visual Novel tag but no VNDB Steam mapping
+GAMALYTIC_FOUND,2815,Intersection games with copiesSold returned
+GAMALYTIC_NOT_FOUND,25,Intersection games missing from the anonymous Gamalytic list

@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node dependencies (the current folder is a local runtime junction)
+node_modules/
+
+# Secrets and machine-local configuration
+API.txt
+.env
+.env.*
+!.env.example
+
+# Resumable API response caches
+data/raw/
+
+# Workbook render/inspection intermediates
+outputs/**/previews/
+outputs/**/*.inspect.ndjson
+
+# Generated archives and temporary files
+outputs/**/*.zip
+*.tmp
+*.log
+
+# Keep only the current public-facing workbook; older generated variants can be rebuilt
+outputs/**/*.xlsx
+!outputs/expanded_vndb_complete_2020_2025/steam_visual_novels_expanded_2020_2025_cn_guide.xlsx
+
+# OS metadata
+.DS_Store
+Thumbs.db
